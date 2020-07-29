@@ -21,7 +21,7 @@ public class IosSafariCaps extends TeasyCaps {
 
     private DesiredCapabilities getIOSSafariCaps() {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("app", "Safari");
+        //caps.setCapability("app", "Safari");
         caps.setCapability("platformName", "iOS");
         caps.setCapability("newCommandTimeout", "900");
         setLoggingPrefs(caps);
